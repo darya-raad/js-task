@@ -24,17 +24,17 @@ function checkAge(age) {
 }
 
 function checkAge(age) {
-  return (age > 18) ? true : confirm('Did parents allow you?');
+  return age > 18 ? true : confirm('Did parents allow you?');
 }
 
 function checkAge(age) {
-  return (age > 18) || confirm('Did parents allow you?');
+  return age > 18 || confirm('Did parents allow you?');
 }
 
 // 3
-min(2, 5) == 2
-min(3, -1) == -1
-min(1, 1) == 1
+min(2, 5) == 2;
+min(3, -1) == -1;
+min(1, 1) == 1;
 
 function min(a, c) {
   if (a < c) {
